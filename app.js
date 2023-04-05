@@ -1,10 +1,7 @@
 const person = {
   fullName: "Max",
   age: 66,
-  place: {
-    country: "Rissia",
-    city: "Адищево",
-  },
+  country: "Rissia",
   hasCats: true,
   hobbies: ["JavaScrip", "Movies", "Cats"],
   greeting: function () {
@@ -14,18 +11,11 @@ const person = {
 
 console.log(person.greeting());
 
-const myPerson = {
-  ...person,
-  occupation: {
-    profession: "Developer-buttonpusher",
-    hobby:
-      "Creating unique mixed drinks using unusual ingredients such as boiled onions or pickles.",
-    favoriteFilm: "Ski Fighter",
-    favoriteNumber: 666,
-  },
+const myPerson = { ...person };
+myPerson.occupation = {
+  gamer: true,
+  philanthropist: false,
+  billionaire: null,
 };
 
 console.log(myPerson.occupation);
-
-const textInConsole = document.querySelector("h1");
-textInConsole.textContent = myPerson.occupation.hobby;
