@@ -83,8 +83,8 @@ const movies = [
 ];
 
 const cinema = movies.forEach((movie) => {
-  const result =
-    movie.details.reviews.reduce((a, b) => a + b.score, 0) /
+  const averageScore =
+    movie.details.reviews.reduce((i, review) => i + review.score, 0) /
     movie.details.reviews.length;
 
   const actorsList = movie.actors.join(", ");
@@ -95,7 +95,7 @@ const cinema = movies.forEach((movie) => {
     }”.
   This movie starred ${actorsList}. It was rated by ${
       movie.details.reviews.length
-    } users, with a total rating of ${result.toFixed(
+    } users, with a total rating of ${averageScore.toFixed(
       1
     )}. Register to watch this ${movie.details.genre}.`
   );
