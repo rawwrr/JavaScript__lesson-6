@@ -8,7 +8,7 @@ const person = {
   hasCats: true,
   hobbies: ["JavaScrip", "Movies", "Cats"],
   greeting: function () {
-    return "Hey, my name is " + person.fullName;
+    return "Hey, my name is " + this.fullName;
   },
 };
 
