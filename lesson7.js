@@ -32,7 +32,7 @@ const movies = [
         {
           username: "Rosa Parra",
           content:
-            "“Wednesday” is a dark, compelling, murder mystery told brilliantly through Burton’s gothic aesthetic and style, anchored by a magnetic performance from Ortega that further cements her status as one of the best up-and-coming actresses in the industry.",
+            "Wednesday is a dark, compelling, murder mystery told brilliantly through Burton’s gothic aesthetic and style, anchored by a magnetic performance from Ortega that further cements her status as one of the best up-and-coming actresses in the industry.",
           score: 9.5,
         },
         {
