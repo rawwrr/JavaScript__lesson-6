@@ -1,19 +1,37 @@
 // 2.
-// const getWord = (number) => {
-//   const arr = ["фильм", "фильма", "фильмов"];
+// Фильмы
+// let numberFilm = prompt("Введите количество фильмов от 1 до 5:");
 
-//   if (number == 1) {
-//     console.log(`${number} ${arr[0]}`);
-//   } else if (number == 2 || number == 3 || number == 4) {
-//     console.log(`${number} ${arr[1]}`);
-//   } else if (number == 5) {
-//     console.log(`${number} ${arr[2]}`);
-//   }
-// };
+// const arrFilms = ["фильм", "фильма", "фильмов"];
 
-// console.log(getWord(5));
+// if (numberFilm == 1) {
+//   console.log(`${numberFilm} ${arrFilms[0]}`);
+// } else if (numberFilm == 2 || numberFilm == 3 || numberFilm == 4) {
+//   console.log(`${numberFilm} ${arrFilms[1]}`);
+// } else if (numberFilm == 5) {
+//   console.log(`${numberFilm} ${arrFilms[2]}`);
+// }
 
-// 3.
+// Movies
+// const numberMovie = prompt("Enter the number of movies from 1 to 5:");
+
+// const arrMovies = ["movie", "movies"];
+
+// if (numberMovie == 1) {
+//   console.log(`${numberMovie} ${arrMovies[0]}`);
+// } else if (
+//   numberMovie == 2 ||
+//   numberMovie == 3 ||
+//   numberMovie == 4 ||
+//   numberMovie == 5
+// ) {
+//   console.log(`${numberMovie} ${arrMovies[1]}`);
+// }
+
+// 3. Создать ОДНУ функцию, которая принимает объект критериев (год, название и рейтинг),  a возвращать будет массив фильмов/сериалов по трем критериям:
+
+// filterByYear + filterByTitle = one function
+// For example, filterShows(shows, filterCriteria);
 
 // 4.
 // let scoreNum = prompt("Введите свою оценку:");

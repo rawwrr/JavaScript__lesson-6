@@ -100,3 +100,5 @@ const cinema = movies.forEach((movie) => {
     )}. Register to watch this ${movie.details.genre}.`
   );
 });
+
+function filterShows(year, title, score) {}
