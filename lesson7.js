@@ -74,7 +74,7 @@ const movies = [
         {
           username: "Keith Garlington",
           content:
-            "Whether it’s the draining exposition of the first half or the smothering non-stop ridiculousness of the second half, the film never finds a good balance.",
+            "Whether it's the draining exposition of the first half or the smothering non-stop ridiculousness of the second half, the film never finds a good balance.",
           score: 3,
         },
       ],
@@ -101,4 +101,20 @@ const cinema = movies.forEach((movie) => {
   );
 });
 
-function filterShows(year, title, score) {}
+// const filterShows = (movieYear, movieTitle, movieScore) => {
+//   const valueOfYear = movies.filter((item) => {
+//     return item.year == movieYear;
+//   });
+
+//   console.log(valueOfYear);
+// };
+
+// console.log(filterShows(1999));
+
+// const arr1 = [1, 2, 6, 43, 231, 12, 0];
+
+// const filter = arr1.filter((score) => {
+//   return score > 7;
+// });
+
+// console.log(filter);
