@@ -195,26 +195,9 @@ For example, filterShows(shows, filterCriteria);
  * Создайте функцию, которая принимает строку и возвращает true, если строка является палиндромом (читается одинаково вперед и назад), в противном случае false.
  */
 
-const Palindrom = (word) => {
-  const conversionToArray = word.toString().toLowerCase().split("");
-  const arrNoReverse = conversionToArray.map((arr1) => {
-    return arr1;
-  });
-  const arrayWithReverse = arrNoReverse.map((arr2) => {
-    return arr2;
-  });
-
-  arrayWithReverse.reverse();
-
-  console.log(arrNoReverse);
-  console.log(arrayWithReverse);
-
-  if (arrNoReverse.length !== arrayWithReverse.length) return false;
-
-  for (let j = 0; j < arrNoReverse.length; j++)
-    if (arrNoReverse[j] !== arrayWithReverse[j]) return false;
-
-  return true;
+const palindrom = (word) => {
+  word = word.toString().toLowerCase();
+  return word === word.split("").reverse().join("");
 };
 
-console.log(Palindrom("ABBA"));
+console.log(palindrom("ABBA"));
